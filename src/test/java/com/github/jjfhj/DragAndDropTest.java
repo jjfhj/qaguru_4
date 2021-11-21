@@ -9,6 +9,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class DragAndDropTest {
+
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
